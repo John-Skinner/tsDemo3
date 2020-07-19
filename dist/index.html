@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Graphic Canvases</title>
+    <script data-main="index.js" src="require.js"></script>
+</head>
+<body>
+<h1> Graphic Canvases</h1>
+
+<canvas class="graphicCanvas" width="300" height="200"></canvas>
+<script type="text/javascript">
+
+function activate()
+{
+    require(['GManager'], function(GManager) {
+        var g = new GManager.GManager("graphicCanvas");
+        g.Activate();
+        console.log("init gmanager");
+    })
+};
+activate();
+</script>
+</body>
+
+</html>

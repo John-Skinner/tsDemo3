@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "umd",
+    "target": "es6",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "removeComments": false,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "../dist",
+    "declaration": true
+  },
+  "exclude": [
+  ]
+}
